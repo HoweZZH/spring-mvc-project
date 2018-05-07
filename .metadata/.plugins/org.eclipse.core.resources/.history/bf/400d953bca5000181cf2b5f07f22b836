@@ -1,0 +1,5 @@
+package com.lub2code.springdemo;
+
+public interface Coach {
+
+}

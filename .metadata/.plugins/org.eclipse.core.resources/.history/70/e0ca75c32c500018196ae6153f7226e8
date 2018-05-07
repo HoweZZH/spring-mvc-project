@@ -1,0 +1,16 @@
+package com.luv2code.springdemo;
+
+public class WalkCoach implements Coach {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public String getDailyWorkout() {
+		// TODO Auto-generated method stub
+		return "walk for 100mins";
+	}
+
+}

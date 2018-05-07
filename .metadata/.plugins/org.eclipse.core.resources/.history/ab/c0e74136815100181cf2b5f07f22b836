@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hello World - Input Form</title>
+</head>
+<body>
+	<form action="processForm" method="GET">
+		<input type="text" name="studentName"
+			palceholder="what's your name?"/>
+		<input type="submit"/>
+	</form>
+<h2>Spring MVC Demo - Home page</h2>
+
+</body>
+
+</html>

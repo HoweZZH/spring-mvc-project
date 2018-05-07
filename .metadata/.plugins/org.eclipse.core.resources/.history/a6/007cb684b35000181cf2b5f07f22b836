@@ -1,0 +1,12 @@
+package com.luv2code.springdemo;
+
+public class HappyFortuneService implements FortuneService {
+	
+	radomArray = new String[] {"Lucky 1", "Lucky 2", "Lucky 3"};
+	@Override
+	public String getFortune() {
+		// TODO Auto-generated method stub
+		return "Today is your lucky day!";
+	}
+}
+

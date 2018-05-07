@@ -1,0 +1,6 @@
+package com.apple.springdemo;
+
+@Configuration
+public class SportConfig {
+	
+}

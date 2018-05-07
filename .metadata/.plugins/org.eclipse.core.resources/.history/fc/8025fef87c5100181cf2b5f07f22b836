@@ -1,0 +1,14 @@
+package com.apple.springdemo.mvc;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class HoemController {
+	
+	
+//	public static void main(String[] args) {
+//		// TODO Auto-generated method stub
+//
+//	}
+
+}

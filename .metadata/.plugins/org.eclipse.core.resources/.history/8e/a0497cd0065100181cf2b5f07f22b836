@@ -1,0 +1,22 @@
+package com.apple.springdemo;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class RandomFortuneService implements FortuneService {
+	
+	// create an array of strings 
+	private String[] data = {
+			"B",
+			"C",
+			"The journey is the reward"
+	};
+	
+	@Override
+	public String getFortune() {
+		// TODO Auto-generated method stub
+		return "random fortune lucky 2";
+	}
+}
+
+
