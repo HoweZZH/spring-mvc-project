@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/student")
 public class StudentController {
 	
-	@Value("${countryOptions}")
+	@Value("#{countryOptions}")
 	private LinkedHashMap<String, String> countryOptions;
 	
 	@RequestMapping("/showForm")
@@ -20,6 +20,7 @@ public class StudentController {
 		
 		// create a student object
 		Student theStudent = new Student();
+		
 		
 		// add student object to the model
 		// this student obj is requested in the student-form.jsp 
